@@ -5,6 +5,3 @@
    - name: Update apt packages
      apt:
       update_cache: yes
-   - name: Update apt packages
-     apt:
-      update_cache: yes
