@@ -2,7 +2,8 @@
   hosts: all
   become: true
   tasks :
-   - ping:
+   -name: Connection Check
+    ping:
   tasks:
    - name: Update apt packages
      apt:
