@@ -4,7 +4,6 @@
   tasks :
    -name: Connection Check
     ping:
-  tasks:
    - name: Update apt packages
      apt:
       update_cache: yes
