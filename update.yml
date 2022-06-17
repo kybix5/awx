@@ -1,6 +1,8 @@
 - name: Hello World Sample
   hosts: all
   become: true
+  tasks :
+   - ping:
   tasks:
    - name: Update apt packages
      apt:
