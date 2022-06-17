@@ -2,8 +2,8 @@
   hosts: all
   become: true
   tasks :
-   -name: Connection Check
-    ping:
+   - name: Connection Check
+     ping:
    - name: Update apt packages
      apt:
       update_cache: yes
