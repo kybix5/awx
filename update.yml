@@ -1,4 +1,4 @@
-- name: Hello World Sample
+- name: Upgrade all packages
   hosts: all
   gather_facts: yes
   become: true
